@@ -1,0 +1,228 @@
+/* General Container */
+.user-container {
+  display: flex;
+  min-height: 100vh;
+  background-color: #f4f4f9;
+  overflow-y: auto;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 300px;
+  background-color: #ffffff;
+  padding: 20px;
+  height: 100vh;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar .back-button {
+  background-color: #8ed2eb;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.sidebar .logo img {
+  width: 75%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.sidebar .menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar .menu-item {
+  padding: 12px;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: left;
+  transition: background 0.3s ease;
+}
+
+.sidebar .menu-item:hover,
+.sidebar .menu-item.active {
+  background-color: #8ed2eb;
+  border-radius: 5px;
+}
+
+.sidebar .logout {
+  color: #fff;
+  padding: 12px;
+  cursor: pointer;
+  border-top: 1px solid #ccc;
+  margin-top: auto;
+  text-align: center;
+  
+}
+
+.userform-container {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #d3f0f7;
+  overflow-y: auto;
+  height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.useradd-details-form {
+  width: 100%;
+  max-width: 600px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+}
+
+.useradd-details-form h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.userform-section {
+  margin-bottom: 30px;
+}
+
+.userform-section h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.userform-group {
+  margin-bottom: 15px;
+}
+
+.userform-group label {
+  display: block;
+  font-size: 14px;
+  color: black;
+  margin-bottom: 5px;
+}
+
+.userform-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.userform-group input:focus {
+  border-color: black;
+}
+
+.family-member {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.family-member h4 {
+  font-size: 18px;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.family-member .form-group {
+  margin-bottom: 12px;
+}
+
+.family-member input {
+  width: 100%;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.submit-button {
+  background-color: #87d7ec;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.submit-button:hover {
+  background-color: #87d7ec;
+}
+
+.useradd-family-member-button {
+  background-color: #87d7ec;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.useradd-family-member-button:hover {
+  background-color: #87d7ec;
+}
+
+.add-another-member {
+  background-color: #87d7ec;
+  color: white;
+  margin-top: 10px;
+}
+
+.add-another-member:hover {
+  background-color: #87d7ec;
+}
+
+@media (max-width: 768px) {
+  .user-container {
+    flex-direction: column;
+  }
+
+  .usersidebar {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+  }
+
+  .userform-container {
+    padding: 15px;
+  }
+
+  .useradd-details-form {
+    padding: 15px;
+  }
+}
+  
+.adminback-button {
+  background-color: #8ed2eb;
+  border: none;
+  padding: 10px;
+  border-radius: 0%;
+  font-size: 16px;
+  cursor: pointer;
+  align-items: center;
+  align-self: center;
+  width: 50px;
+  margin-right: auto;
+}

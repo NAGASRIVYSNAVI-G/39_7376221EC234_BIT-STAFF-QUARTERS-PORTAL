@@ -1,0 +1,42 @@
+.admin-form-container {
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input {
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button.submit-button {
+  padding: 10px 20px;
+  background-color: #87d7ec;
+  color: balck;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button.submit-button:hover {
+  background-color: #87d7ec;
+}

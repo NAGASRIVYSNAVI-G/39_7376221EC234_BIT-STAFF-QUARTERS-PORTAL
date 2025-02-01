@@ -1,0 +1,117 @@
+.previousguest-container {
+  display: flex;
+  height: 100vh;
+  background-color: #d3f0f7;
+}
+.newguestbutton {
+  background-color: #8ed2eb;
+  color: rgb(18, 3, 3);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sidebarguest {
+  width: 300px;
+  background-color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.logo img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-item {
+  padding: 15px 10px;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.menu-item.active,
+.menu-item:hover {
+  background-color: #80deea;
+}
+
+.previousguest-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;  
+  padding: 20px;
+  width: 100%;
+}
+
+.profile-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+
+.profile-icon {
+  background-color: #80deea;
+  padding: 10px;
+  border-radius: 50%;
+  color: #fff;
+  font-weight: bold;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th {
+  background-color: white;
+  color: black;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+.guest-info h2 {
+  margin-bottom: 20px;
+}
+
+.detail-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.submit-butto{
+  background-color: #7ed6df;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 2px;
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

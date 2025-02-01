@@ -1,0 +1,163 @@
+.admincomplaint-container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 300px;
+  background-color: #ffffff;
+  padding: 20px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.logo img {
+  width: 75%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-item {
+  padding: 10px 0;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: left;
+  margin: 0;
+}
+
+.menu-item.active {
+  background-color: #8ed2eb;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+.content {
+  flex-grow: 1;
+  background-color: #d3f1f9;
+  padding: 20px;
+}
+
+.complaint-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.complaint-table th,
+.complaint-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.complaint-table th {
+  background-color: #87d7ec;
+}
+
+.complaint-table tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+.complaint-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.status {
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.status.registered {
+  color: black;
+  background-color: rgb(210, 20, 20);
+}
+
+.status.accepted {
+ color: black;
+ background-color:rgb(222, 222, 66);
+}
+
+.status.completed {
+  color:black;
+  background-color:rgb(60, 215, 60);
+}
+
+.user-profile {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: #87d7ec;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-initial {
+  font-size: 24px;
+  color: black;
+  font-weight: bold;
+}
+
+.back-button {
+  background-color: #5ecdf7;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.wordings{
+  font-size: 20px;
+}
+.pie-chart-container {
+  width: 50%;
+  margin: 0 auto 20px;
+}
+
+.complaint-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.complaint-table th,
+.complaint-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.complaint-table th {
+  background-color: #87d7ec;
+}
+
+.status {
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.status.registered {
+  background-color: #f11f30;
+  color: black;
+}
+
+.status.accepted {
+  background-color: #e9b518;
+  color: black;
+}
+
+.status.completed {
+  background-color: #1cca45;
+  color: black;
+}

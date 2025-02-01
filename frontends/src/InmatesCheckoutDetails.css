@@ -1,0 +1,125 @@
+body{
+  overflow: hidden;
+}
+.inmates-checkout-container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 300px;
+  background-color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.logo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo img {
+  width: 80px;
+}
+
+.menu {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu-item {
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+.menu-item.active {
+  background-color: #7ed6df;
+  border-radius: 20px;
+  align-items: center;
+  align-self: center;
+}
+
+.inmates-checkout-details {
+  flex-grow: 1;
+  background-color: #dff9fb;
+  padding: 50px;
+}
+
+.profile-header {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 20px;
+}
+
+.profile-icon {
+  width: 50px;
+  height: 50px;
+  background-color: #7ed6df;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: #000;
+}
+
+.checkout-info {
+  background-color:white;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 40px;
+  border-radius: 10px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 40px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  padding-right: 700px;
+
+}
+
+.form-group label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  
+}
+
+.insubmit{
+  background-color: #7ed6df;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 0px;
+  margin-top: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.dateinputs{  
+  box-sizing: border-box;
+  width: 165px;
+  height:25px
+}
+
+.detail {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}

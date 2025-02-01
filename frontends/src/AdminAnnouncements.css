@@ -1,0 +1,223 @@
+.adminprofile-container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 300px;
+  background-color: #ffffff;
+  padding: 20px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.logo img {
+  width: 75%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-item {
+  padding: 10px 0;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: left;
+  margin: 0;
+}
+
+.menu-item.active {
+  background-color: #8ed2eb;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+.content {
+  flex-grow: 1;
+  background-color: #d3f1f9;
+  padding: 20px;
+}
+
+.select-member-button {
+  background-color: #87d7ec;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-right: auto;
+  align-self: center;
+}
+
+.members-list {
+  list-style: none;
+  padding: 20px;
+}
+
+.member-item {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.user-profile {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: #87d7ec;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.profile-initial {
+  font-size: 24px;
+  color: black;
+  font-weight: bold;
+}
+
+.back-button {
+  background-color: #5ecdf7;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.searchinput {
+  height: 20px;
+}
+
+.search-input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  margin-right: 10px;
+  flex-grow: 1;
+}
+
+.announcements-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #f0f8ff;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.announcement-input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.announcement-input textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  resize: none;
+}
+
+.announcement-input button {
+  background-color: #87d7ec;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: flex-end;
+}
+
+.announcement-input button:hover {
+  background-color: #6bc2d9;
+}
+
+.announcement-list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px; 
+}
+
+.announcement-item {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;  
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  gap: 10px; 
+  margin-bottom: 20px;  
+}
+
+.announcement-item:hover {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.announcement-item p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.announcement-item small {
+  font-size: 14px;
+  color: #555;
+}
+
+.announcement-item button {
+  background-color: #5ecdf7;
+  border: none;
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 3px;
+  cursor: pointer;
+  align-self: flex-start;
+}
+
+.announcement-item button:hover {
+  background-color: #49b9e4;
+}
+
+.announcement-actions {
+  display: flex;
+  gap: 15px; 
+  margin-top: 10px;
+}
+
+.announcement-actions button {
+  background-color: #5ecdf7;
+  border: none;
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.announcement-actions button:hover {
+  background-color: #49b9e4;
+}
+
+.announcement-actions button:last-child {
+  background-color: #f76c6c;
+}
+
+.announcement-actions button:last-child:hover {
+  background-color: #e55a5a;
+}
